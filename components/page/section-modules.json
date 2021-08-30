@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "bread-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module",
+      "required": true,
+      "min": 2
+    }
+  }
+}
